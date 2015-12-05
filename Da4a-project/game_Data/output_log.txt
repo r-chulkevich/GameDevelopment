@@ -10,20 +10,38 @@ Default GameObject Tag: Player already registered
 (Filename:  Line: 88)
 
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Public\Documents\Unity Projects\beforeHB\Da4a-Project\game_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Public\Documents\Unity Projects\beforeHB\Da4a-Project\game_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Public\Documents\Unity Projects\beforeHB\Da4a-Project\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Public\Documents\Unity Projects\beforeHB\Da4a-Project\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Public\Documents\Unity Projects\beforeHB\Da4a-Project\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Public\Documents\Unity Projects\beforeHB\Da4a-Project\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Public\Documents\Unity Projects\beforeHB\Da4a-Project\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Public\Documents\Unity Projects\beforeHB\Da4a-Project\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Public\Documents\Unity Projects\beforeHB\Da4a-Project\game_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.062 seconds
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Da4a-Project\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Da4a-Project\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Da4a-Project\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Da4a-Project\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Da4a-Project\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Da4a-Project\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Da4a-Project\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Da4a-Project\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Da4a-Project\game_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.071 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\Public\Documents\Unity Projects\beforeHB\Da4a-Project\game_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Da4a-Project\game_Data\Managed\System.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1649)
+
+ArgumentOutOfRangeException: Cannot be negative.
+Parameter name: length
+  at System.String.Substring (Int32 startIndex, Int32 length) [0x00000] in <filename unknown>:0 
+  at TimeCounter.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 18bc -> priority: 1 
+  Thread -> id: 1b60 -> priority: 1 
+ArgumentOutOfRangeException: Cannot be negative.
+Parameter name: length
+  at System.String.Substring (Int32 startIndex, Int32 length) [0x00000] in <filename unknown>:0 
+  at TimeCounter.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
