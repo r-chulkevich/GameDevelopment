@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
 public class PlayerMove : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class PlayerMove : MonoBehaviour {
     Image stamina;
     Image sprite;
     public bool isWaiting = false;
+    public int waySide;
 
 	void Start () {
 
@@ -31,9 +33,18 @@ public class PlayerMove : MonoBehaviour {
                 anim.SetBool("iswalking", true);
                 anim.SetFloat("input_x",movement_vector.x);
                 anim.SetFloat("input_y", movement_vector.y);
-                hunger.fillAmount = hunger.fillAmount - 0.001f;
-                stamina.fillAmount = stamina.fillAmount - 0.001f;
-                sprite.fillAmount = sprite.fillAmount - 0.001f;
+                hunger.fillAmount = hunger.fillAmount - 0.00006f;
+                stamina.fillAmount = stamina.fillAmount - 0.00009f;
+                sprite.fillAmount = sprite.fillAmount - 0.00008f;
+
+
+                if (Math.Abs(movement_vector.x) > Math.Abs(movement_vector.y))
+                    if (movement_vector.x < 0f) waySide = 1;
+                    else waySide = 3;
+                else
+                    if (movement_vector.y < 0f) waySide = 4;
+                    else waySide = 2;
+
             }
             else {
                 anim.SetBool("iswalking", false);
